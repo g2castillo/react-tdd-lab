@@ -1,34 +1,4 @@
-# TDD with React, Jest and Enzyme
 
-## Prerequisites
-* nodejs >= 6 (see https://nodejs.org/en/download/ )
-* npm or yarn
-
-## Instructions
-```bash
-# clone the repo
-git clone https://github.com/dr-impossible/react-tdd-lab
-cd react-tdd-lab
-
-# Install packages
-npm install
-
-# Run tests
-npm test
-
-# *OR* Run in browser
-npm start
-```
-
-## 1. Basic TDD of a function
-Files:
-* src/validators/phoneNumber.js
-* src/validators/phoneNumber.test.js
-
-Create a function which validates a string that contains a 10 digit phone number.
-It should contain the following characteristics:
-* it must contain exactly 10 digits (0-9)
-* if it contains separators, the digits must be in groups of 3, 3, 4. E.g., 647-555-1212
 * valid separators are spaces ` ` or dashes `-`
 * no other characters are permitted
 
